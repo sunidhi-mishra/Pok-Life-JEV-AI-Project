@@ -1,0 +1,4158 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Patient Grounder",
+      "strengths": [
+        "Steady pacing",
+        "Grounded discipline"
+      ],
+      "blindSpot": "Hesitant to pivot when sudden speed is required",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Sturdy Developer",
+      "strengths": [
+        "Resilient pacing",
+        "Quiet self-assurance"
+      ],
+      "blindSpot": "Can settle into comfort zones during transition stages",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unshakable Pillar",
+      "strengths": [
+        "Deep resilience",
+        "Centering presence"
+      ],
+      "blindSpot": "Inflexible once rooted in a preferred direction",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "canonical": {
+      "category": "Lizard Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Earnest Striver",
+      "strengths": [
+        "Inner spark",
+        "Willingness to try"
+      ],
+      "blindSpot": "Vulnerable to self-doubt if early validation flickers",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Restless Rebel",
+      "strengths": [
+        "Fierce drive",
+        "Competitive hunger"
+      ],
+      "blindSpot": "Impatience with slow or diplomatic processes",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Bold Pioneer",
+      "strengths": [
+        "High-stakes courage",
+        "Magnetic presence"
+      ],
+      "blindSpot": "Overconfident; prone to stubborn solo charges",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "canonical": {
+      "category": "Tiny Turtle Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Pragmatic Coolhead",
+      "strengths": [
+        "Calm composure",
+        "Dependable team defense"
+      ],
+      "blindSpot": "Tends to play safe and delay vulnerable exposure",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "canonical": {
+      "category": "Turtle Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Seasoned Navigator",
+      "strengths": [
+        "Balanced defense",
+        "Measured confidence"
+      ],
+      "blindSpot": "Reluctant to take uncalculated risks",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Protective Bulwark",
+      "strengths": [
+        "Heavyweight reliability",
+        "Emotional containment"
+      ],
+      "blindSpot": "Relies heavily on brute fortitude over nimble compromise",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "canonical": {
+      "category": "Worm Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Humble Beginner",
+      "strengths": [
+        "Earnest willingness",
+        "Openness to learning"
+      ],
+      "blindSpot": "Easily intimidated by large challenges",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "canonical": {
+      "category": "Cocoon Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Resilient Endurer",
+      "strengths": [
+        "Tough boundary-setting",
+        "Patience under pressure"
+      ],
+      "blindSpot": "Complete immobility when proactive initiative is needed",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 2,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "canonical": {
+      "category": "Butterfly Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Uplifting Transformer",
+      "strengths": [
+        "Graceful transition",
+        "Gentle perspective"
+      ],
+      "blindSpot": "Fragile defense when exposed to harsh conflict",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "canonical": {
+      "category": "Hairy Bug Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Cautious Scout",
+      "strengths": [
+        "Alert wariness",
+        "Instinctive defense"
+      ],
+      "blindSpot": "Quick to retreat when outmatched",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "canonical": {
+      "category": "Cocoon Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Silent Incubator",
+      "strengths": [
+        "Stoic endurance",
+        "Quiet transformation"
+      ],
+      "blindSpot": "Passive waiting when proactive communication is required",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 2,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "canonical": {
+      "category": "Poison Bee Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Decisive Striker",
+      "strengths": [
+        "Direct action",
+        "Uncompromising boundaries"
+      ],
+      "blindSpot": "Aggressive overreaction to mild friction",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "canonical": {
+      "category": "Tiny Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Practical Commoner",
+      "strengths": [
+        "Adaptable grounding",
+        "Reliable simplicity"
+      ],
+      "blindSpot": "Prefers evasion over necessary direct confrontation",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "canonical": {
+      "category": "Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Vigilant Watcher",
+      "strengths": [
+        "Keen awareness",
+        "Steady loyalty"
+      ],
+      "blindSpot": "Territorial tension when boundaries shift",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "canonical": {
+      "category": "Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Noble High-Flyer",
+      "strengths": [
+        "Panoramic vision",
+        "Poised confidence"
+      ],
+      "blindSpot": "Distanced detachment from gritty ground-level details",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Resourceful Scrapper",
+      "strengths": [
+        "Quick opportunistic action",
+        "Tenacity in tight spots"
+      ],
+      "blindSpot": "Scattered focus; reactive impulsiveness",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tenacious Defender",
+      "strengths": [
+        "Fierce resolve",
+        "Tough grit"
+      ],
+      "blindSpot": "Combative stance when cooperative diplomacy is better",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "canonical": {
+      "category": "Tiny Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Feisty Challenger",
+      "strengths": [
+        "Instant readiness",
+        "Refusal to back down"
+      ],
+      "blindSpot": "Hair-trigger temper under mild criticism",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "canonical": {
+      "category": "Beak Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Relentless Pursuer",
+      "strengths": [
+        "Stamina in flight",
+        "Unwavering target lock"
+      ],
+      "blindSpot": "Tunnel vision that ignores lateral opportunities",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "canonical": {
+      "category": "Snake Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Subtle Infiltrator",
+      "strengths": [
+        "Patient stealth",
+        "Observant maneuvering"
+      ],
+      "blindSpot": "Suspicious hesitation to trust collaborators",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "canonical": {
+      "category": "Cobra Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Intimidating Strategist",
+      "strengths": [
+        "Psychological composure",
+        "Commanding presence"
+      ],
+      "blindSpot": "Relies on posturing rather than genuine vulnerability",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Resilient Spark",
+      "strengths": [
+        "Quick recovery",
+        "Electric optimism",
+        "Loyal determination"
+      ],
+      "blindSpot": "Prone to burnout from trying to carry too much",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Grounded Dynamo",
+      "strengths": [
+        "Stored power",
+        "Balanced assertiveness"
+      ],
+      "blindSpot": "Holds back until pushed to extreme limits",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Cautious Preserver",
+      "strengths": [
+        "Thrift with energy",
+        "Solid personal boundaries"
+      ],
+      "blindSpot": "Curling inward defensively when openness is needed",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Rugged Self-Reliant",
+      "strengths": [
+        "Autonomous problem-solving",
+        "Tough exterior"
+      ],
+      "blindSpot": "Isolates themselves from supportive allies",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Gentle Observer",
+      "strengths": [
+        "Quiet sensitivity",
+        "Careful situational reading"
+      ],
+      "blindSpot": "Shy hesitation before expressing opinions",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Nurturing Guardian",
+      "strengths": [
+        "Protective loyalty",
+        "Empathetic stability"
+      ],
+      "blindSpot": "Sacrifices personal boundaries for community comfort",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Matriarchal Shield",
+      "strengths": [
+        "Fierce loyalty",
+        "Stout grounding",
+        "Calm authority"
+      ],
+      "blindSpot": "Heavy defensiveness if family/team feels questioned",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Alert Sentinel",
+      "strengths": [
+        "Sharp intuition",
+        "Responsive defense"
+      ],
+      "blindSpot": "Easily provoked by perceived territorial challenges",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Eager Challenger",
+      "strengths": [
+        "Direct confrontation",
+        "Energy in conflict"
+      ],
+      "blindSpot": "Charges ahead before assessing structural traps",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Dominant Enforcer",
+      "strengths": [
+        "Uncompromising power",
+        "Commanding drive"
+      ],
+      "blindSpot": "Overpowers nuanced discussions with brute demand",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "canonical": {
+      "category": "Fairy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fairy"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Playful Harmonizer",
+      "strengths": [
+        "Gentle optimism",
+        "Social warmth"
+      ],
+      "blindSpot": "Avoids tough conflict in favor of keeping light peace",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "canonical": {
+      "category": "Fairy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fairy"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Serene Mystic",
+      "strengths": [
+        "Deep tranquility",
+        "Intuitive faith"
+      ],
+      "blindSpot": "Detached escapism when immediate reality is messy",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "canonical": {
+      "category": "Fox Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Graceful Strategist",
+      "strengths": [
+        "Elegance under pressure",
+        "Clever evasion"
+      ],
+      "blindSpot": "Distrustful of unfamiliar surroundings",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "canonical": {
+      "category": "Fox Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Timeless Sage",
+      "strengths": [
+        "Deep patience",
+        "Unshakable dignified aura"
+      ],
+      "blindSpot": "Vindictive memory; holds long-standing grudges",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "canonical": {
+      "category": "Balloon Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Fairy"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Persistent Performer",
+      "strengths": [
+        "Unapologetic expression",
+        "Emotional openness"
+      ],
+      "blindSpot": "Easily offended when their effort goes uncelebrated",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 3,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "canonical": {
+      "category": "Balloon Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Fairy"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Soft Cushion",
+      "strengths": [
+        "Comforting presence",
+        "Emotional resilience"
+      ],
+      "blindSpot": "Difficulty delivering firm or uncomfortable boundaries",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "canonical": {
+      "category": "Bat Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Blind Explorer",
+      "strengths": [
+        "Auditory navigation",
+        "Relentless swarming persistence"
+      ],
+      "blindSpot": "Erratic direction without a clear anchor",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "canonical": {
+      "category": "Bat Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tenacious Infiltrator",
+      "strengths": [
+        "Endless pursuit",
+        "Daring flight in darkness"
+      ],
+      "blindSpot": "Overextends energy pursuing low-value returns",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "canonical": {
+      "category": "Weed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Nighttime Thinker",
+      "strengths": [
+        "Quiet nocturnal focus",
+        "Organic timing"
+      ],
+      "blindSpot": "Hesitant to participate during high-visibility day hours",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "canonical": {
+      "category": "Weed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unbothered Eccentric",
+      "strengths": [
+        "Total authenticity",
+        "Radical indifference to judgment"
+      ],
+      "blindSpot": "Disregards interpersonal polish or collective comfort",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "canonical": {
+      "category": "Flower Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Blooming Sovereign",
+      "strengths": [
+        "Radiant presence",
+        "Natural self-containment"
+      ],
+      "blindSpot": "Toxic passive-aggression when disturbed",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "canonical": {
+      "category": "Mushroom Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Grass"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Symbiotic Laborer",
+      "strengths": [
+        "Resource extraction",
+        "Unpretentious diligence"
+      ],
+      "blindSpot": "Easily dominated by parasitic demands",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "canonical": {
+      "category": "Mushroom Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Grass"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Single-Minded Trance",
+      "strengths": [
+        "Absolute focus",
+        "Zero distractibility"
+      ],
+      "blindSpot": "Total loss of personal autonomy to single obsessions",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 3,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "canonical": {
+      "category": "Insect Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Sensitive Sensor",
+      "strengths": [
+        "Environmental awareness",
+        "Quiet curiosity"
+      ],
+      "blindSpot": "Easily disoriented by chaotic stimuli",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "canonical": {
+      "category": "Poison Moth Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ethereal Drifter",
+      "strengths": [
+        "Subtle disruption",
+        "Graceful adaptability"
+      ],
+      "blindSpot": "Aloof detachment during practical execution",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "canonical": {
+      "category": "Mole Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Hidden Worker",
+      "strengths": [
+        "Rapid underground diligence",
+        "Modesty"
+      ],
+      "blindSpot": "Crippling anxiety when dragged into the open light",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "canonical": {
+      "category": "Mole Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Coordinated Syndicate",
+      "strengths": [
+        "Seamless teamwork",
+        "Synchronized impact"
+      ],
+      "blindSpot": "Struggles with individual autonomy or solo standing",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "canonical": {
+      "category": "Scratch Cat Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Witty Opportunist",
+      "strengths": [
+        "Verbal dexterity",
+        "Eye for hidden upside"
+      ],
+      "blindSpot": "Easily distracted by shiny, short-term payoffs",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 3,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "canonical": {
+      "category": "Classy Cat Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Elegant Pragmatist",
+      "strengths": [
+        "Calculated poise",
+        "Smooth authority"
+      ],
+      "blindSpot": "Condescending impatience toward clumsy efforts",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "canonical": {
+      "category": "Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Reluctant Prodigy",
+      "strengths": [
+        "Breakthroughs under acute stress",
+        "Endearing honesty"
+      ],
+      "blindSpot": "Chronic self-doubt and emotional overwhelm",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 2,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "canonical": {
+      "category": "Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Flow-State Master",
+      "strengths": [
+        "Effortless focus",
+        "Swift decisive elegance"
+      ],
+      "blindSpot": "Prone to arrogance when outclassing others",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "canonical": {
+      "category": "Pig Monkey Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Spontaneous Sparkplug",
+      "strengths": [
+        "Immediate action",
+        "Unfiltered raw passion"
+      ],
+      "blindSpot": "Volatile temper that burns bridges unnecessarily",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "canonical": {
+      "category": "Pig Monkey Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Indomitable Berserker",
+      "strengths": [
+        "Unstoppable adrenaline",
+        "Tenacious follow-through"
+      ],
+      "blindSpot": "Blinded by fury; incapable of de-escalation",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "canonical": {
+      "category": "Puppy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Loyal Guardian",
+      "strengths": [
+        "Instinctive bravery",
+        "Warm dependable heart"
+      ],
+      "blindSpot": "Barking at harmless shadows out of hyper-vigilance",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "canonical": {
+      "category": "Legendary Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Majestic Champion",
+      "strengths": [
+        "Noble courage",
+        "Commanding warmth",
+        "Steady valor"
+      ],
+      "blindSpot": "Overburdens themselves to meet heroic expectations",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Sensitive Wader",
+      "strengths": [
+        "Fluid evasion",
+        "Agile learning"
+      ],
+      "blindSpot": "Unsure of footing on dry, demanding ground",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Versatile Swimmer",
+      "strengths": [
+        "Balanced coordination",
+        "Physical adaptability"
+      ],
+      "blindSpot": "Jack of all trades; hesitates to specialize",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ironclad Swimmer",
+      "strengths": [
+        "Stamina without limit",
+        "Physical discipline"
+      ],
+      "blindSpot": "Attempts to muscle through problems requiring delicate tact",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Strategic Retreater",
+      "strengths": [
+        "Energy conservation",
+        "Mastery of instant escape"
+      ],
+      "blindSpot": "Bails on challenges before learning through struggle",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 2,
+        "adaptability": 4,
+        "courage": 1,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Analytical Mentalist",
+      "strengths": [
+        "Sharp pattern recognition",
+        "Mental agility"
+      ],
+      "blindSpot": "Overthinks straightforward physical realities",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Grand Architect",
+      "strengths": [
+        "Total cognitive mastery",
+        "Predictive clarity"
+      ],
+      "blindSpot": "Intellectual arrogance; dismisses emotional nuance",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Dedicated Trainee",
+      "strengths": [
+        "Appetite for repetition",
+        "Humility in practice"
+      ],
+      "blindSpot": "Measures all worth purely through mechanical output",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Steady Heavy-Lifter",
+      "strengths": [
+        "Reliable muscle",
+        "Willingness to carry the burden"
+      ],
+      "blindSpot": "Reluctance to ask for assistance when strained",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Multi-Tasking Juggernaut",
+      "strengths": [
+        "Simultaneous execution",
+        "Overwhelming capacity"
+      ],
+      "blindSpot": "Clutters the field by trying to handle everything alone",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "canonical": {
+      "category": "Flower Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Flexible Stem",
+      "strengths": [
+        "Bending without breaking",
+        "Light-footed survival"
+      ],
+      "blindSpot": "Blown easily by whatever social wind is strongest",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "canonical": {
+      "category": "Flycatcher Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Opportunistic Hook",
+      "strengths": [
+        "Patience in ambush",
+        "Grasping readiness"
+      ],
+      "blindSpot": "Clings possessively once an opportunity is snagged",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "canonical": {
+      "category": "Flycatcher Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Voracious Devourer",
+      "strengths": [
+        "Aggressive closure",
+        "Decisive appetite"
+      ],
+      "blindSpot": "Consumes resources recklessly without future foresight",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "canonical": {
+      "category": "Jellyfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ubiquitous Drifter",
+      "strengths": [
+        "Endless ocean endurance",
+        "Discreet persistence"
+      ],
+      "blindSpot": "Drifts aimlessly if not constrained by currents",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "canonical": {
+      "category": "Jellyfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Domain Controller",
+      "strengths": [
+        "Multi-angle coordination",
+        "Territorial poise"
+      ],
+      "blindSpot": "Suffocates creative freedom with excessive command",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "canonical": {
+      "category": "Rock Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Rugged Brawler",
+      "strengths": [
+        "Rock-solid toughness",
+        "Unpretentious stamina"
+      ],
+      "blindSpot": "Blunt insensitivity to delicate feelings",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "canonical": {
+      "category": "Rock Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unstoppable Boulder",
+      "strengths": [
+        "Momentum generation",
+        "Downhill commitment"
+      ],
+      "blindSpot": "Hard to steer or stop once a roll has commenced",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "canonical": {
+      "category": "Megaton Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Armored Fortress",
+      "strengths": [
+        "Unyielding impact",
+        "Extreme pressure resistance"
+      ],
+      "blindSpot": "Rigid traditionalism; resists modernization",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 5,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "canonical": {
+      "category": "Fire Horse Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Spirited Galloper",
+      "strengths": [
+        "Infectious momentum",
+        "Joy in the run"
+      ],
+      "blindSpot": "Spooks easily if confined to tight, static spaces",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "canonical": {
+      "category": "Fire Horse Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Swift Pacesetter",
+      "strengths": [
+        "Competitive stride",
+        "Effortless speed"
+      ],
+      "blindSpot": "Impatience with collaborators who need slower ramps",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 1,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "canonical": {
+      "category": "Dopey Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Radical Unbothered",
+      "strengths": [
+        "Immunity to panic",
+        "Zero performance anxiety"
+      ],
+      "blindSpot": "Delayed awareness; misses critical temporal windows",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 2,
+        "courage": 1,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "canonical": {
+      "category": "Hermit Crab Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Symbiotic Chill",
+      "strengths": [
+        "Grounded nonchalance",
+        "Unbreakable zen"
+      ],
+      "blindSpot": "Oblivious drift when decisive action is urgent",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "canonical": {
+      "category": "Magnet Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Steel"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Magnetic Attractor",
+      "strengths": [
+        "Systematic connection",
+        "Steady levitation"
+      ],
+      "blindSpot": "Overly reliant on specific external frequencies",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "canonical": {
+      "category": "Magnet Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Steel"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Triad Resonator",
+      "strengths": [
+        "Harmonized synergy",
+        "Amplified field strength"
+      ],
+      "blindSpot": "Generates static noise that disrupts outside peers",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "Farfetch’d",
+    "canonical": {
+      "category": "Wild Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Quirky Craftsman",
+      "strengths": [
+        "Pride in small tools",
+        "Scrappy dignity"
+      ],
+      "blindSpot": "Overly dogmatic about their singular weapon/method",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "canonical": {
+      "category": "Twin Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Dual Monitor",
+      "strengths": [
+        "Split-second vigilance",
+        "Quick two-way checks"
+      ],
+      "blindSpot": "Internal dispute between contradictory desires",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "canonical": {
+      "category": "Triple Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tri-Perspective Planner",
+      "strengths": [
+        "Multi-angle scanning",
+        "Rapid ground coverage"
+      ],
+      "blindSpot": "Overthinking three options simultaneously",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "canonical": {
+      "category": "Sea Lion Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Buoyant Innocent",
+      "strengths": [
+        "Comfort in freezing waters",
+        "Pure playful spirit"
+      ],
+      "blindSpot": "Naive unreadiness for cynical interpersonal games",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "canonical": {
+      "category": "Sea Lion Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Elegant Glider",
+      "strengths": [
+        "Graceful poise",
+        "Thermal insulation against stress"
+      ],
+      "blindSpot": "Passivity in warm, contentious environments",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "canonical": {
+      "category": "Sludge Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Resilient Sludge",
+      "strengths": [
+        "Thriving in toxic waste",
+        "Malleable consistency"
+      ],
+      "blindSpot": "Leaves messy aftermaths in clean spaces",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 5,
+        "courage": 2,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "canonical": {
+      "category": "Sludge Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unapologetic Behemoth",
+      "strengths": [
+        "Total absorption of negativity",
+        "Heavy ground presence"
+      ],
+      "blindSpot": "Suffocating clinginess; hard to cleanse boundary lines",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "canonical": {
+      "category": "Bivalve Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Hard Clam",
+      "strengths": [
+        "Impenetrable shell",
+        "Patience in waiting for safety"
+      ],
+      "blindSpot": "Total shut-down whenever vulnerability is invited",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 1,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "canonical": {
+      "category": "Bivalve Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Fortified Sentry",
+      "strengths": [
+        "Spike-sharp defense",
+        "Diamond-hard security"
+      ],
+      "blindSpot": "Guards against threats that no longer exist",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 3,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "canonical": {
+      "category": "Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ethereal Tease",
+      "strengths": [
+        "Bypassing material blocks",
+        "Playful irreverence"
+      ],
+      "blindSpot": "Lack of physical follow-through; vaporizes under discipline",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 2,
+        "adaptability": 5,
+        "courage": 3,
+        "patience": 2,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "canonical": {
+      "category": "Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Mischievous Catalyst",
+      "strengths": [
+        "Disrupting stiff routines",
+        "Levity in dark corners"
+      ],
+      "blindSpot": "Pushes pranks past the edge of respectful comfort",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 4,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "canonical": {
+      "category": "Shadow Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Shadow Maestro",
+      "strengths": [
+        "Total comfort in the dark",
+        "Audacious charisma"
+      ],
+      "blindSpot": "Cynical mockery when sincere vulnerability is required",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 5,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "canonical": {
+      "category": "Rock Snake Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Subterranean Colossus",
+      "strengths": [
+        "Monumental scale",
+        "Quiet deep-earth stability"
+      ],
+      "blindSpot": "Cumbersome clumsiness in tight, agile negotiations",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 4,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "canonical": {
+      "category": "Hypnosis Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Dream Reader",
+      "strengths": [
+        "Deep intuitive hypnosis",
+        "Subconscious listening"
+      ],
+      "blindSpot": "Somnolent grogginess during active waking emergencies",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "canonical": {
+      "category": "Hypnosis Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Trance Commander",
+      "strengths": [
+        "Laser hypnotic focus",
+        "Measured rhythmic pacing"
+      ],
+      "blindSpot": "Eerie detachment; unsettling to transparent peers",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "canonical": {
+      "category": "River Crab Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Scrappy Sidestepper",
+      "strengths": [
+        "Punchy self-defense",
+        "Sideways problem navigation"
+      ],
+      "blindSpot": "Snaps instinctively before evaluating if a pinch is warranted",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "canonical": {
+      "category": "Pincer Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Heavy Claw",
+      "strengths": [
+        "Crushing leverage",
+        "Imposing boundary defense"
+      ],
+      "blindSpot": "Unbalanced; one heavy asset can throw off full equilibrium",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "canonical": {
+      "category": "Ball Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Hair-Trigger Fuse",
+      "strengths": [
+        "Immediate detonation of stuck deadlocks",
+        "High voltage"
+      ],
+      "blindSpot": "Explodes destructively at the slightest inconvenience",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 2,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "canonical": {
+      "category": "Ball Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Rolling Dynamo",
+      "strengths": [
+        "Terrifying velocity",
+        "Willingness to reset the board"
+      ],
+      "blindSpot": "Scorched-earth solutions when gradual repair was viable",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "canonical": {
+      "category": "Egg Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Distributed Cluster",
+      "strengths": [
+        "Shared risk",
+        "Collective consensus"
+      ],
+      "blindSpot": "Easily cracked if separated from the peer group",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "canonical": {
+      "category": "Coconut Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Jolly Multitude",
+      "strengths": [
+        "Sunny optimism",
+        "Broad cognitive span"
+      ],
+      "blindSpot": "Internal cacophony when heads disagree on direction",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "canonical": {
+      "category": "Lonely Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Lonely Mourner",
+      "strengths": [
+        "Deep emotional depth",
+        "Courage born of hardship"
+      ],
+      "blindSpot": "Wears armor of past grief; guards against present joy",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "canonical": {
+      "category": "Bone Keeper Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Hardened Survivor",
+      "strengths": [
+        "Bone-deep resolve",
+        "Transmuted pain into discipline"
+      ],
+      "blindSpot": "Hyper-independent; assumes the world is hostile",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "canonical": {
+      "category": "Kicking Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Precision Striker",
+      "strengths": [
+        "Elastic reach",
+        "Decisive targeted impact"
+      ],
+      "blindSpot": "One-dimensional focus on kinetic pushback",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "canonical": {
+      "category": "Punching Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Disciplined Pugilist",
+      "strengths": [
+        "Rhythmic boxing cadence",
+        "Iron stamina in rounds"
+      ],
+      "blindSpot": "Rigid reliance on clean sparring rules in messy street fights",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "canonical": {
+      "category": "Licking Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tactile Explorer",
+      "strengths": [
+        "Experiential learning",
+        "Unfiltered sensory curiosity"
+      ],
+      "blindSpot": "Zero sense of social distance or hygiene",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "canonical": {
+      "category": "Poison Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Buoyant Smiler",
+      "strengths": [
+        "Smiling through pollution",
+        "Lighthearted buoyancy"
+      ],
+      "blindSpot": "Emits toxic fumes unconsciously into shared air",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "canonical": {
+      "category": "Poison Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Dual-Chamber Converter",
+      "strengths": [
+        "Neutralizing foul atmospheres",
+        "Mutual support"
+      ],
+      "blindSpot": "Internalized self-deprecation due to unsavory tasks",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "canonical": {
+      "category": "Spikes Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground",
+        "Rock"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Straight-Line Charger",
+      "strengths": [
+        "Unstoppable brute momentum",
+        "Zero hesitation"
+      ],
+      "blindSpot": "Cannot turn corners; forgets why it started running",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 1,
+        "courage": 4,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground",
+        "Rock"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Drill Master",
+      "strengths": [
+        "Boring through bedrock",
+        "Stout physical presence"
+      ],
+      "blindSpot": "Solves fine clockwork dilemmas with heavy sledgehammers",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 1,
+        "courage": 5,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "canonical": {
+      "category": "Egg Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unconditional Caregiver",
+      "strengths": [
+        "Endless emotional reservoir",
+        "Nutrient sharing"
+      ],
+      "blindSpot": "Chronic people-pleasing; ignores own acute wounds",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 5,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "canonical": {
+      "category": "Vine Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Enigmatic Vine",
+      "strengths": [
+        "Regenerative wrapping",
+        "Intriguing mystery"
+      ],
+      "blindSpot": "Entangles itself in over-complicated knots",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "canonical": {
+      "category": "Parent Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Fierce Protector",
+      "strengths": [
+        "Unyielding parental bravery",
+        "Sheltering warmth"
+      ],
+      "blindSpot": "Overprotective aggression toward benign strangers",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Delicate Marksman",
+      "strengths": [
+        "Ink-screen defense",
+        "Accurate subtle shots"
+      ],
+      "blindSpot": "Vulnerable to sudden swift cross-currents",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 4,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Bristling Guardian",
+      "strengths": [
+        "Spiny boundary enforcement",
+        "Agile whirlpool tactics"
+      ],
+      "blindSpot": "Prickly defensiveness even when approached kindly",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "canonical": {
+      "category": "Goldfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Graceful Swimmer",
+      "strengths": [
+        "Elegance in motion",
+        "Instinctive defense"
+      ],
+      "blindSpot": "Demands pristine aesthetic conditions to thrive",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "canonical": {
+      "category": "Goldfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Upstream Champion",
+      "strengths": [
+        "Powerful counter-current swimming",
+        "Nest protection"
+      ],
+      "blindSpot": "Stubborn upstream battles when easier channels exist",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "canonical": {
+      "category": "Star Shape Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Resilient Core",
+      "strengths": [
+        "Infinite tissue regeneration",
+        "Quiet jewel focus"
+      ],
+      "blindSpot": "Impassive; gives minimal emotional feedback",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 5,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "canonical": {
+      "category": "Mysterious Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Enigmatic Core",
+      "strengths": [
+        "Crystalline balance",
+        "Radiant multi-element versatility"
+      ],
+      "blindSpot": "Aloof geometry; alienates grounded earthy peers",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 5,
+        "courage": 4,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "canonical": {
+      "category": "Barrier Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic",
+        "Fairy"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Boundary Architect",
+      "strengths": [
+        "Invisible wall construction",
+        "Theatrical framing"
+      ],
+      "blindSpot": "Replaces genuine conversation with pantomimed barriers",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 3,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "canonical": {
+      "category": "Mantis Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Razor Precisionist",
+      "strengths": [
+        "Blinding speed",
+        "Surgical decisive strikes"
+      ],
+      "blindSpot": "Brittle patience; hates prolonged diplomatic negotiations",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 5,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "canonical": {
+      "category": "Human Shape Pokémon",
+      "generation": 1,
+      "types": [
+        "Ice",
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Rhythmic Communicator",
+      "strengths": [
+        "Mesmerizing sway",
+        "Soulful sound connection"
+      ],
+      "blindSpot": "Misunderstood eccentricities spark polarization",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "canonical": {
+      "category": "Electric Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The High-Voltage Igniter",
+      "strengths": [
+        "Explosive dynamic energy",
+        "Electric readiness"
+      ],
+      "blindSpot": "Overloads circuits; creates chaotic brownouts",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "canonical": {
+      "category": "Spitfire Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Molten Forge",
+      "strengths": [
+        "Transformative internal heat",
+        "Fiery presence"
+      ],
+      "blindSpot": "Scorches surroundings; lacks cooling mechanisms",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "canonical": {
+      "category": "Stag Beetle Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Relentless Clamper",
+      "strengths": [
+        "Grip of iron",
+        "No-nonsense physical resolve"
+      ],
+      "blindSpot": "Freezes in bitter cold; helpless against airborne change",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 4,
+        "patience": 2,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "canonical": {
+      "category": "Wild Bull Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Stampeding Force",
+      "strengths": [
+        "Unbridled momentum",
+        "Wild visceral energy"
+      ],
+      "blindSpot": "Self-whipping frenzy; easily baited by red flags",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "canonical": {
+      "category": "Fish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unseen Potential",
+      "strengths": [
+        "Surviving utter dismissal",
+        "Relentless harmless splashing"
+      ],
+      "blindSpot": "Feels powerlessly ineffective in current baseline form",
+      "dimensionRatings": {
+        "confidence": 1,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 4,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "canonical": {
+      "category": "Atrocious Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tempestuous Ascendant",
+      "strengths": [
+        "Total metamorphosis",
+        "Overpowering tidal might"
+      ],
+      "blindSpot": "Destructive retribution for past grievances",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "canonical": {
+      "category": "Transport Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Gentle Ferryman",
+      "strengths": [
+        "Compassionate transport",
+        "Calm in deep waters",
+        "Melodic serenity"
+      ],
+      "blindSpot": "Too trusting; susceptible to exploitation by predatory peers",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "canonical": {
+      "category": "Transform Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ultimate Chameleon",
+      "strengths": [
+        "Total structural mirroring",
+        "Ego-less fluidity"
+      ],
+      "blindSpot": "Lacks internal core; forgets own authentic identity",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 2,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "canonical": {
+      "category": "Evolution Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Unwritten Canvas",
+      "strengths": [
+        "Infinite evolution options",
+        "Cheerful adaptability",
+        "Open-hearted learning"
+      ],
+      "blindSpot": "Decision paralysis from having too many open futures",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 3,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "canonical": {
+      "category": "Bubble Jet Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Fluid Dissolver",
+      "strengths": [
+        "Melting into water",
+        "Seamless adaptation to mood"
+      ],
+      "blindSpot": "Loses distinct form when pressure becomes acute",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 5,
+        "courage": 3,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "canonical": {
+      "category": "Lightning Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Lightning Reflex",
+      "strengths": [
+        "Split-second decisions",
+        "High-velocity electric spark"
+      ],
+      "blindSpot": "Nervous hypersensitivity; quick to startle",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 4,
+        "courage": 4,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Warm Hearth",
+      "strengths": [
+        "Intense personal warmth",
+        "Stored thermal passion"
+      ],
+      "blindSpot": "Overheats quickly; needs extended downtime between bursts",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "canonical": {
+      "category": "Virtual Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Digital Pioneer",
+      "strengths": [
+        "Flawless code-level logic",
+        "Frictionless simulation"
+      ],
+      "blindSpot": "Bewildered by messy organic human emotions",
+      "dimensionRatings": {
+        "confidence": 3,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 2,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "canonical": {
+      "category": "Spiral Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ancient Spiral",
+      "strengths": [
+        "Prehistoric endurance",
+        "Patient shell defense"
+      ],
+      "blindSpot": "Slow to awaken to fast modern real-time dynamics",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "canonical": {
+      "category": "Spiral Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Armored Grasper",
+      "strengths": [
+        "Crushing beak",
+        "Relentless spiral protection"
+      ],
+      "blindSpot": "Weighed down by its own over-developed armor",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 2,
+        "courage": 3,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Timeless Carapace",
+      "strengths": [
+        "Undisturbed survival across eras",
+        "Stout dome"
+      ],
+      "blindSpot": "Paralyzed if turned upside down",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 2,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Ancient Reaper",
+      "strengths": [
+        "Sleek aquatic hunting",
+        "Swift scythe precision"
+      ],
+      "blindSpot": "Specialized for a primeval sea that no longer exists",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "canonical": {
+      "category": "Fossil Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Primordial Screamer",
+      "strengths": [
+        "Uncompromising sky dominance",
+        "Raw feral courage"
+      ],
+      "blindSpot": "Intolerant of confinement or patient diplomacy",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 3,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 1,
+        "calm": 1
+      }
+    }
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "canonical": {
+      "category": "Sleeping Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Serene Anchor",
+      "strengths": [
+        "Unshakable peace",
+        "Immense digestion of stress",
+        "Restorative naps"
+      ],
+      "blindSpot": "Massive inertia; extremely difficult to awaken to action",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 1,
+        "courage": 2,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "canonical": {
+      "category": "Freeze Pokémon",
+      "generation": 1,
+      "types": [
+        "Ice",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Winter Beacon",
+      "strengths": [
+        "Sublime grace",
+        "Cooling feverish minds",
+        "Legendary poise"
+      ],
+      "blindSpot": "Chilling emotional detachment; aloof distance",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 4,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "canonical": {
+      "category": "Electric Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Tempestuous Spark",
+      "strengths": [
+        "Electrifying momentum",
+        "Breakthrough velocity",
+        "Commanding sky presence"
+      ],
+      "blindSpot": "Stormy unpredictability; leaves crackling tension behind",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 5,
+        "patience": 1,
+        "calm": 2
+      }
+    }
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Immortal Flame",
+      "strengths": [
+        "Rebirth through trial",
+        "Illuminating courage",
+        "Radiant renewal"
+      ],
+      "blindSpot": "Consumes fuel furiously; scorched earth during transitions",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 2,
+        "courage": 5,
+        "patience": 2,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Mystic Seeder",
+      "strengths": [
+        "Sacred patience",
+        "Purity of untainted potential"
+      ],
+      "blindSpot": "Vulnerable to sudden storms before shedding its skin",
+      "dimensionRatings": {
+        "confidence": 2,
+        "persistence": 4,
+        "adaptability": 3,
+        "courage": 2,
+        "patience": 5,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Serene Aura",
+      "strengths": [
+        "Weather-harmonizing presence",
+        "Poised quiet majesty"
+      ],
+      "blindSpot": "Prefers mystical sanctuary over practical conflicts",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 3,
+        "patience": 5,
+        "calm": 5
+      }
+    }
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon",
+        "Flying"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Benevolent Titan",
+      "strengths": [
+        "Heart of gold",
+        "Crossing oceans to rescue others",
+        "Vast capable strength"
+      ],
+      "blindSpot": "Heartbroken and prone to catastrophic fury if betrayed",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 5,
+        "adaptability": 4,
+        "courage": 5,
+        "patience": 4,
+        "calm": 4
+      }
+    }
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "canonical": {
+      "category": "Genetic Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Existential Sovereign",
+      "strengths": [
+        "Fierce autonomy",
+        "Intellectual depth",
+        "Unflinching search for purpose"
+      ],
+      "blindSpot": "Severe defensive cynicism and trust barriers",
+      "dimensionRatings": {
+        "confidence": 5,
+        "persistence": 4,
+        "adaptability": 4,
+        "courage": 5,
+        "patience": 3,
+        "calm": 3
+      }
+    }
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "canonical": {
+      "category": "New Species Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    },
+    "productInterpretation": {
+      "archetype": "The Primordial Spark",
+      "strengths": [
+        "Boundless curiosity",
+        "Universal empathy",
+        "Joyful spontaneous mastery"
+      ],
+      "blindSpot": "Disappears like a mirage when heavy burdens appear",
+      "dimensionRatings": {
+        "confidence": 4,
+        "persistence": 3,
+        "adaptability": 5,
+        "courage": 4,
+        "patience": 4,
+        "calm": 5
+      }
+    }
+  }
+]

@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-rpg: #1a2744;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a2744;
+  color: #141f36;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Pixel & RPG Styling Utilities */
+.rpg-panel {
+  background-color: #faf8f2;
+  border: 4px solid #18243c;
+  box-shadow: 6px 6px 0px 0px rgba(18, 27, 46, 0.95);
+  border-radius: 20px;
+}
+
+.rpg-inner-box {
+  background-color: #f7f5ed;
+  border: 2px solid #233454;
+  border-radius: 12px;
+}
+
+.rpg-badge {
+  background-color: #1a2846;
+  color: #ffffff;
+  border: 2px solid #10192e;
+  border-radius: 6px;
+  font-family: var(--font-press-start), monospace;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+
+.rpg-btn-primary {
+  background: linear-gradient(180deg, #e84c40 0%, #db362a 100%);
+  border: 3px solid #18243c;
+  box-shadow: 0 4px 0 0 #8b1e16, 0 6px 0 0 rgba(24, 36, 60, 0.8);
+  color: #ffffff;
+  transition: all 0.1s ease;
+}
+
+.rpg-btn-primary:hover {
+  background: linear-gradient(180deg, #f05a4e 0%, #e24236 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 0 0 #8b1e16, 0 7px 0 0 rgba(24, 36, 60, 0.8);
+}
+
+.rpg-btn-primary:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 0 #8b1e16, 0 2px 0 0 rgba(24, 36, 60, 0.8);
+}
+
+.rpg-btn-secondary {
+  background-color: #ede8d8;
+  border: 2px solid #18243c;
+  box-shadow: 2px 2px 0px 0px #18243c;
+  transition: all 0.1s ease;
+}
+
+.rpg-btn-secondary:hover {
+  background-color: #e5dfcc;
+  transform: translateY(-1px);
+  box-shadow: 2px 3px 0px 0px #18243c;
+}
+
+.rpg-btn-secondary:active {
+  transform: translateY(1px);
+  box-shadow: 1px 1px 0px 0px #18243c;
+}
+
+.speech-bubble-tail-ash {
+  position: relative;
+}
+.speech-bubble-tail-ash::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  border-width: 10px 10px 0 0;
+  border-style: solid;
+  border-color: #18243c transparent transparent transparent;
+}
+
+.speech-bubble-tail-misty {
+  position: relative;
+}
+.speech-bubble-tail-misty::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  border-width: 10px 0 0 10px;
+  border-style: solid;
+  border-color: #18243c transparent transparent transparent;
+}

@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "canonical": {
+      "category": "Seed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "canonical": {
+      "category": "Lizard Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "canonical": {
+      "category": "Tiny Turtle Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "canonical": {
+      "category": "Turtle Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "canonical": {
+      "category": "Worm Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "canonical": {
+      "category": "Cocoon Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "canonical": {
+      "category": "Butterfly Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "canonical": {
+      "category": "Hairy Bug Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "canonical": {
+      "category": "Cocoon Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "canonical": {
+      "category": "Poison Bee Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "canonical": {
+      "category": "Tiny Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "canonical": {
+      "category": "Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "canonical": {
+      "category": "Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "canonical": {
+      "category": "Tiny Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "canonical": {
+      "category": "Beak Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "canonical": {
+      "category": "Snake Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "canonical": {
+      "category": "Cobra Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "canonical": {
+      "category": "Mouse Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "canonical": {
+      "category": "Poison Pin Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "canonical": {
+      "category": "Fairy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fairy"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "canonical": {
+      "category": "Fairy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fairy"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "canonical": {
+      "category": "Fox Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "canonical": {
+      "category": "Fox Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "canonical": {
+      "category": "Balloon Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Fairy"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "canonical": {
+      "category": "Balloon Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Fairy"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "canonical": {
+      "category": "Bat Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "canonical": {
+      "category": "Bat Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "canonical": {
+      "category": "Weed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "canonical": {
+      "category": "Weed Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "canonical": {
+      "category": "Flower Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "canonical": {
+      "category": "Mushroom Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Grass"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "canonical": {
+      "category": "Mushroom Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Grass"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "canonical": {
+      "category": "Insect Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "canonical": {
+      "category": "Poison Moth Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "canonical": {
+      "category": "Mole Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "canonical": {
+      "category": "Mole Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "canonical": {
+      "category": "Scratch Cat Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "canonical": {
+      "category": "Classy Cat Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "canonical": {
+      "category": "Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "canonical": {
+      "category": "Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "canonical": {
+      "category": "Pig Monkey Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "canonical": {
+      "category": "Pig Monkey Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "canonical": {
+      "category": "Puppy Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "canonical": {
+      "category": "Legendary Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "canonical": {
+      "category": "Tadpole Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "canonical": {
+      "category": "Psi Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "canonical": {
+      "category": "Superpower Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "canonical": {
+      "category": "Flower Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "canonical": {
+      "category": "Flycatcher Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "canonical": {
+      "category": "Flycatcher Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "canonical": {
+      "category": "Jellyfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "canonical": {
+      "category": "Jellyfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "canonical": {
+      "category": "Rock Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "canonical": {
+      "category": "Rock Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "canonical": {
+      "category": "Megaton Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "canonical": {
+      "category": "Fire Horse Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "canonical": {
+      "category": "Fire Horse Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "canonical": {
+      "category": "Dopey Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "canonical": {
+      "category": "Hermit Crab Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "canonical": {
+      "category": "Magnet Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Steel"
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "canonical": {
+      "category": "Magnet Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Steel"
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Farfetch’d",
+    "canonical": {
+      "category": "Wild Duck Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "canonical": {
+      "category": "Twin Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "canonical": {
+      "category": "Triple Bird Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "canonical": {
+      "category": "Sea Lion Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "canonical": {
+      "category": "Sea Lion Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "canonical": {
+      "category": "Sludge Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "canonical": {
+      "category": "Sludge Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "canonical": {
+      "category": "Bivalve Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "canonical": {
+      "category": "Bivalve Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "canonical": {
+      "category": "Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "canonical": {
+      "category": "Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "canonical": {
+      "category": "Shadow Pokémon",
+      "generation": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "canonical": {
+      "category": "Rock Snake Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "canonical": {
+      "category": "Hypnosis Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "canonical": {
+      "category": "Hypnosis Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "canonical": {
+      "category": "River Crab Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "canonical": {
+      "category": "Pincer Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "canonical": {
+      "category": "Ball Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "canonical": {
+      "category": "Ball Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "canonical": {
+      "category": "Egg Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "canonical": {
+      "category": "Coconut Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "canonical": {
+      "category": "Lonely Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "canonical": {
+      "category": "Bone Keeper Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "canonical": {
+      "category": "Kicking Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "canonical": {
+      "category": "Punching Pokémon",
+      "generation": 1,
+      "types": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "canonical": {
+      "category": "Licking Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "canonical": {
+      "category": "Poison Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "canonical": {
+      "category": "Poison Gas Pokémon",
+      "generation": 1,
+      "types": [
+        "Poison"
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "canonical": {
+      "category": "Spikes Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground",
+        "Rock"
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "canonical": {
+      "category": "Drill Pokémon",
+      "generation": 1,
+      "types": [
+        "Ground",
+        "Rock"
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "canonical": {
+      "category": "Egg Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "canonical": {
+      "category": "Vine Pokémon",
+      "generation": 1,
+      "types": [
+        "Grass"
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "canonical": {
+      "category": "Parent Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "canonical": {
+      "category": "Goldfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "canonical": {
+      "category": "Goldfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "canonical": {
+      "category": "Star Shape Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "canonical": {
+      "category": "Mysterious Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "canonical": {
+      "category": "Barrier Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic",
+        "Fairy"
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "canonical": {
+      "category": "Mantis Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "canonical": {
+      "category": "Human Shape Pokémon",
+      "generation": 1,
+      "types": [
+        "Ice",
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "canonical": {
+      "category": "Electric Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "canonical": {
+      "category": "Spitfire Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "canonical": {
+      "category": "Stag Beetle Pokémon",
+      "generation": 1,
+      "types": [
+        "Bug"
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "canonical": {
+      "category": "Wild Bull Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "canonical": {
+      "category": "Fish Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "canonical": {
+      "category": "Atrocious Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "canonical": {
+      "category": "Transport Pokémon",
+      "generation": 1,
+      "types": [
+        "Water",
+        "Ice"
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "canonical": {
+      "category": "Transform Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "canonical": {
+      "category": "Evolution Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "canonical": {
+      "category": "Bubble Jet Pokémon",
+      "generation": 1,
+      "types": [
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "canonical": {
+      "category": "Lightning Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric"
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire"
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "canonical": {
+      "category": "Virtual Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "canonical": {
+      "category": "Spiral Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "canonical": {
+      "category": "Spiral Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "canonical": {
+      "category": "Shellfish Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Water"
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "canonical": {
+      "category": "Fossil Pokémon",
+      "generation": 1,
+      "types": [
+        "Rock",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "canonical": {
+      "category": "Sleeping Pokémon",
+      "generation": 1,
+      "types": [
+        "Normal"
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "canonical": {
+      "category": "Freeze Pokémon",
+      "generation": 1,
+      "types": [
+        "Ice",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "canonical": {
+      "category": "Electric Pokémon",
+      "generation": 1,
+      "types": [
+        "Electric",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "canonical": {
+      "category": "Flame Pokémon",
+      "generation": 1,
+      "types": [
+        "Fire",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon"
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon"
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "canonical": {
+      "category": "Dragon Pokémon",
+      "generation": 1,
+      "types": [
+        "Dragon",
+        "Flying"
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "canonical": {
+      "category": "Genetic Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "canonical": {
+      "category": "New Species Pokémon",
+      "generation": 1,
+      "types": [
+        "Psychic"
+      ]
+    }
+  }
+]
