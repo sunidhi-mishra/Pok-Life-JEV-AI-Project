@@ -426,18 +426,18 @@ export default function AboutPage() {
         {/* ================================================================== */}
         <section
           aria-label="The Product Philosophy"
-          className="rpg-panel p-6 sm:p-8 md:p-10 text-center bg-[#18243c] text-white border-4 border-[#10192e] shadow-[6px_6px_0px_0px_rgba(0,0,0,0.6)] space-y-3"
+          className="p-6 sm:p-8 md:p-10 text-center !bg-[#18243c] text-white border-4 border-[#10192e] shadow-[6px_6px_0px_0px_rgba(24,36,60,0.9)] rounded-[20px] space-y-4"
         >
-          <span className="text-[10px] font-['Press_Start_2P',monospace] text-[#f1c40f] uppercase tracking-wider block">
+          <span className="text-[11px] font-['Press_Start_2P',monospace] text-[#f1c40f] uppercase tracking-wider inline-block bg-[#10192e] px-3 py-1 rounded-md border border-[#f1c40f]/30">
             THE IDEA IN ONE LINE
           </span>
 
-          <h2 className="font-['Press_Start_2P',monospace] text-xs sm:text-sm md:text-base text-[#f7f5ed] leading-relaxed max-w-xl mx-auto">
+          <h2 className="font-['Press_Start_2P',monospace] text-xs sm:text-sm md:text-base text-white leading-loose max-w-2xl mx-auto drop-shadow-sm">
             Use AI where judgment helps. Use rules where certainty matters. Keep the
             experience playful.
           </h2>
 
-          <p className="text-xs text-slate-300 font-medium">
+          <p className="text-xs sm:text-sm text-slate-300 font-medium">
             That&apos;s the idea behind PokéLife.
           </p>
         </section>
