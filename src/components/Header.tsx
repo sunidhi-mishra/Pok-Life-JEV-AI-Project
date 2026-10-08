@@ -11,6 +11,7 @@ export function Header() {
   const isHome = pathname === "/";
   const isHowItWorks = pathname === "/how-it-works";
   const isCreatures = pathname === "/creatures";
+  const isAbout = pathname === "/about";
 
   return (
     <header className="w-full max-w-7xl mx-auto pt-4 pb-2 px-4 flex flex-col md:flex-row items-center justify-between gap-4 select-none">
@@ -73,13 +74,17 @@ export function Header() {
           </Link>
 
           {/* Nav Item: About */}
-          <button
-            type="button"
-            className="flex items-center gap-2 text-slate-300 hover:text-white font-semibold text-xs md:text-sm px-2.5 md:px-3 py-2 rounded-xl transition hover:bg-white/5 opacity-80"
+          <Link
+            href="/about"
+            className={`flex items-center gap-2 font-bold text-xs md:text-sm px-2.5 md:px-3 py-2 rounded-xl transition ${
+              isAbout
+                ? "bg-[#f7f5ed] text-[#18243c] shadow-[2px_2px_0px_0px_#10192e] hover:bg-white"
+                : "text-slate-300 hover:text-white font-semibold hover:bg-white/5"
+            }`}
           >
-            <Info className="w-4 h-4 text-slate-400" />
+            <Info className={`w-4 h-4 ${isAbout ? "text-[#18243c]" : "text-slate-400"}`} />
             <span>About</span>
-          </button>
+          </Link>
         </div>
       </nav>
     </header>

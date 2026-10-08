@@ -152,26 +152,36 @@ export default function HowItWorksPage() {
                 </p>
               </div>
 
-              <div className="bg-[#f7f5ed] border-2 border-[#18243c]/30 rounded-xl p-2.5 flex items-center gap-3">
-                <div className="relative w-12 h-12 bg-white rounded-lg border border-[#18243c] flex items-center justify-center shrink-0">
-                  <Image
-                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
-                    alt="Pikachu"
-                    width={40}
-                    height={40}
-                    className="object-contain"
-                    unoptimized
-                  />
+              <Link
+                href="/creatures"
+                className="bg-[#f7f5ed] border-2 border-[#18243c]/30 rounded-xl p-2.5 flex items-center justify-between gap-3 transition-all hover:bg-white hover:border-[#2b75d6] hover:shadow-[3px_3px_0px_0px_#18243c] group"
+                title="Explore the Creatures"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="relative w-12 h-12 bg-white rounded-lg border border-[#18243c] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                    <Image
+                      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+                      alt="Pikachu"
+                      width={40}
+                      height={40}
+                      className="object-contain"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="text-xs">
+                    <span className="font-bold text-[#18243c] group-hover:text-[#2b75d6] transition-colors flex items-center gap-1">
+                      <span>Original 151 Kanto Roster</span>
+                      <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </span>
+                    <span className="text-slate-500 text-[11px] block">
+                      Matched to situational need, not personal diagnosis
+                    </span>
+                  </div>
                 </div>
-                <div className="text-xs">
-                  <span className="font-bold text-[#18243c] block">
-                    Original 151 Kanto Roster
-                  </span>
-                  <span className="text-slate-500 text-[11px]">
-                    Matched to situational need, not personal diagnosis
-                  </span>
-                </div>
-              </div>
+                <span className="text-[10px] font-['Press_Start_2P',monospace] text-[#2b75d6] hidden sm:inline-block pr-1 group-hover:translate-x-0.5 transition-transform">
+                  &rarr;
+                </span>
+              </Link>
             </div>
 
             {/* Step 4 */}
