@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { PokeballIcon } from "./icons/PixelIcons";
-import { RotateCcw, Share2, Lightbulb, Check } from "lucide-react";
+import { RotateCcw, Share2, Lightbulb } from "lucide-react";
+import { ShareModal } from "./ShareModal";
 import type { MatchApiResponseSuccess } from "@/types/api";
 
 const TYPE_COLORS: Record<string, string> = {
@@ -33,27 +34,7 @@ export function ResultPanel({
   onReset: () => void;
   isLoading: boolean;
 }) {
-  const [copied, setCopied] = useState(false);
-
-  const handleShare = async () => {
-    if (!data) return;
-    const text = `I took my situation to PokéLife and was matched with #${data.pokemon.id} ${data.pokemon.name} (${data.pokemon.archetype})! "${data.whyThisPokemon}"`;
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: "My PokéLife Partner",
-          text,
-          url: window.location.href,
-        });
-        return;
-      } catch {
-        // Fallback to clipboard
-      }
-    }
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
-  };
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
   // --------------------------------------------------------------------------
   // Loading State (STEP 2 / 3: Active Search Progression)
@@ -129,11 +110,12 @@ export function ResultPanel({
 
             <button
               type="button"
-              onClick={handleShare}
+              onClick={() => setIsShareModalOpen(true)}
               className="flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-[#18243c] transition"
+              aria-label="Share Result"
             >
-              {copied ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Share2 className="w-3.5 h-3.5" />}
-              <span>{copied ? "Copied!" : "Share Result"}</span>
+              <Share2 className="w-3.5 h-3.5" />
+              <span>Share Result</span>
             </button>
           </div>
         </div>
@@ -242,6 +224,13 @@ export function ResultPanel({
           </div>
         </div>
       </div>
+
+      {/* Share Result Dialog */}
+      <ShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        result={data}
+      />
     </section>
   );
 }
