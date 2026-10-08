@@ -18,6 +18,14 @@ const pressStart2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "PokéLife - Different problems. New companions.",
   description: "A retro Pokémon RPG companion-matching experience for everyday real-world situations.",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.ico" },
+    ],
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
