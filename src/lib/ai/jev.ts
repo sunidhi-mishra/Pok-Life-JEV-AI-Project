@@ -1,12 +1,14 @@
 /**
- * JEV Structured Judgment Client and Adapter for PokéLife
+ * JEV Structured Judgment Client via OpenRouter Decisions API
  *
- * OFFICIAL API SPECIFICATION:
- * - Provider: TypeSafe AI (System One model)
- * - Endpoint: POST https://api.typesafe.ai/v1/systemone
+ * SPECIFICATION:
+ * - Provider: OpenRouter
+ * - Model: typesafe/jev-1.13
+ * - Endpoint: POST https://openrouter.ai/api/alpha/decisions
  * - Primitive: 'choice' question type
- * - Returns: Typed structured choice, probabilities, and calibrated confidence.
- * - Non-generative: Produces zero free-form prose.
+ * - Authentication: Bearer $OPENROUTER_API_KEY
+ * - Output: Structured typed choice, probability distribution, and confidence.
+ * - Non-generative: Zero prose generation.
  *
  * ARCHITECTURAL ROLE:
  * JEV resolves semantic trade-offs across the top 3-5 candidates filtered by
@@ -17,7 +19,7 @@
  * RULES:
  * - JEV must NOT rubber-stamp the highest deterministic score.
  * - JEV must NOT invent Pokémon IDs outside the provided shortlist.
- * - JEV must NOT generate explanations or text.
+ * - JEV must NOT generate explanations or free-form text.
  */
 
 import type {
@@ -44,10 +46,11 @@ export class JevClient {
   private readonly timeoutMs: number;
 
   constructor(config: JevClientConfig = {}) {
-    this.apiKey = config.apiKey || process.env.JEV_API_KEY;
-    this.baseUrl = config.baseUrl || "https://api.typesafe.ai/v1";
-    this.model = config.model || "jev-latest";
-    this.timeoutMs = config.timeoutMs || 10000;
+    // Uses OPENROUTER_API_KEY as the authoritative key
+    this.apiKey = config.apiKey || process.env.OPENROUTER_API_KEY;
+    this.baseUrl = config.baseUrl || "https://openrouter.ai/api/alpha";
+    this.model = config.model || process.env.JEV_MODEL || "typesafe/jev-1.13";
+    this.timeoutMs = config.timeoutMs || 12000;
   }
 
   /**
@@ -60,7 +63,7 @@ export class JevClient {
       throw new AIProviderError(
         "jev",
         "MISSING_API_KEY",
-        "JEV_API_KEY is not set in environment."
+        "OPENROUTER_API_KEY is not set in environment."
       );
     }
 
@@ -70,21 +73,18 @@ export class JevClient {
     const criteria: Record<string, string> = {};
     for (const c of input.candidates) {
       criteria[`candidate_${c.id}`] =
-        `#${c.id} ${c.name} | Archetype: ${c.archetype} | Strengths: [${c.strengths.join(", ")}] | Blind Spot: ${c.blindSpot} | Deterministic Score: ${c.deterministicScore}`;
+        `#${c.id} ${c.name}: Archetype "${c.archetype}". Key strengths: ${c.strengths.join(", ")}. Blind spot: ${c.blindSpot}. Ranked with deterministic suitability score ${c.deterministicScore}.`;
     }
 
-    // Build the state representation for JEV to analyze
-    const state = `User Situation: "${input.situationSummary}"
-Situational Needs:
-- Confidence Need: ${input.dimensionWeights.confidence}/5
-- Persistence Need: ${input.dimensionWeights.persistence}/5
-- Adaptability Need: ${input.dimensionWeights.adaptability}/5
-- Courage Need: ${input.dimensionWeights.courage}/5
-- Patience Need: ${input.dimensionWeights.patience}/5
-- Calm Need: ${input.dimensionWeights.calm}/5
-
-Evaluation Goal:
-Select the single best companion archetype from the candidate list that best supports the user through their core trade-off.`;
+    // Build the structured state for Jev to evaluate
+    const state = {
+      situation: {
+        summary: input.situationSummary,
+        dimensionWeights: input.dimensionWeights,
+      },
+      evaluationGoal:
+        "Select the single best companion archetype from the candidate list that best supports the user through their core trade-offs, blind spots, and situational needs.",
+    };
 
     const requestBody = {
       model: this.model,
@@ -93,7 +93,7 @@ Select the single best companion archetype from the candidate list that best sup
         pokemon_match: {
           type: "choice",
           instructions:
-            "Select the best companion option for this situation considering strengths and blind spot trade-offs.",
+            "Which candidate Pokémon is the strongest companion for this situation considering strengths and blind spot trade-offs?",
           criteria,
         },
       },
@@ -103,33 +103,59 @@ Select the single best companion archetype from the candidate list that best sup
     const timer = setTimeout(() => controller.abort(), this.timeoutMs);
 
     try {
-      const res = await fetch(`${this.baseUrl}/systemone`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${this.apiKey}`,
-        },
-        body: JSON.stringify(requestBody),
-        signal: controller.signal,
-      });
+    let res: Response | null = null;
+    let attempts = 0;
+    const maxAttempts = 3;
 
-      if (!res.ok) {
-        const errorText = await res.text().catch(() => "");
-        throw new AIProviderError(
-          "jev",
-          "API_ERROR",
-          `JEV API returned status ${res.status}: ${errorText}`
-        );
+    while (attempts < maxAttempts) {
+      attempts++;
+      try {
+        res = await fetch(`${this.baseUrl}/decisions`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${this.apiKey}`,
+            "HTTP-Referer": "https://pokelife.local",
+            "X-Title": "PokéLife Companion Matcher",
+          },
+          body: JSON.stringify(requestBody),
+          signal: controller.signal,
+        });
+
+        if (res.status === 529 || res.status === 429) {
+          if (attempts < maxAttempts) {
+            await new Promise((resolve) => setTimeout(resolve, 2000 * attempts));
+            continue;
+          }
+        }
+        break;
+      } catch (err) {
+        if (attempts >= maxAttempts) throw err;
+        await new Promise((resolve) => setTimeout(resolve, 1500 * attempts));
       }
+    }
+
+    if (!res || !res.ok) {
+      const errorText = await res?.text().catch(() => "") || "";
+      throw new AIProviderError(
+        "jev",
+        "API_ERROR",
+        `OpenRouter JEV API returned status ${res?.status}: ${errorText}`
+      );
+    }
 
       const responseJson = await res.json();
-      const answer = responseJson.answers?.pokemon_match;
 
-      if (!answer || answer.type !== "choice" || typeof answer.choice !== "string") {
+      // OpenRouter Decisions API returns answers under answers.choices.<question_name> or answers.<question_name>
+      const answer =
+        responseJson.answers?.choices?.pokemon_match ||
+        responseJson.answers?.pokemon_match;
+
+      if (!answer || typeof answer.choice !== "string") {
         throw new AIProviderError(
           "jev",
           "INVALID_OUTPUT",
-          "Malformed response from JEV: missing or invalid choice answer."
+          "Malformed response from OpenRouter Decisions API: missing or invalid choice answer."
         );
       }
 
@@ -137,13 +163,21 @@ Select the single best companion archetype from the candidate list that best sup
       const selectedIdStr = answer.choice.replace("candidate_", "");
       const selectedPokemonId = parseInt(selectedIdStr, 10);
 
+      const usage = responseJson.usage
+        ? {
+            inputTokens: responseJson.usage.prompt_tokens ?? responseJson.usage.input_tokens,
+            outputTokens: responseJson.usage.completion_tokens ?? responseJson.usage.output_tokens ?? 0,
+          }
+        : undefined;
+
       const output: JevSelectionOutput = {
         selectedPokemonId,
         confidence: typeof answer.confidence === "number" ? answer.confidence : undefined,
         probabilities: answer.probabilities,
+        usage,
       };
 
-      // Strict validation ensuring ID is one of allowed candidates
+      // Strict validation ensuring ID is one of allowed candidates in shortlist
       validateJevSelectionOutput(output, allowedIds);
       return output;
     } catch (err: unknown) {
@@ -154,7 +188,7 @@ Select the single best companion archetype from the candidate list that best sup
       throw new AIProviderError(
         "jev",
         "API_ERROR",
-        `JEV network request failed: ${(err as Error)?.message}`
+        `OpenRouter JEV request failed: ${(err as Error)?.message}`
       );
     } finally {
       clearTimeout(timer);
@@ -178,11 +212,6 @@ export function mockJevSelection(input: JevSelectionInput): JevSelectionOutput {
 
   const allowedIds = input.candidates.map((c) => c.id);
 
-  // Semantic evaluation rule for Mock:
-  // 1. Analyze the core tension in situation summary
-  // 2. If the user mentions words like "fear", "anxious", "scared", prefer a candidate
-  //    whose strengths include grounding/calm or courage without excessive blind spots
-  // 3. Otherwise, select the candidate with the highest holistic suitability score
   let bestCandidate = input.candidates[0];
   let highestEvaluatedScore = -Infinity;
 
@@ -191,15 +220,47 @@ export function mockJevSelection(input: JevSelectionInput): JevSelectionOutput {
   for (const c of input.candidates) {
     let judgmentScore = c.deterministicScore;
 
-    // Semantic adjustment: reward candidates whose blind spots do NOT exacerbate the situation
-    if (situationLower.includes("overwhelm") && c.blindSpot.toLowerCase().includes("inertia")) {
-      judgmentScore -= 10; // e.g. Snorlax might worsen active overwhelm
+    const blindLower = c.blindSpot.toLowerCase();
+    const strengthsLower = c.strengths.map((s) => s.toLowerCase()).join(" ");
+
+    // Trade-off 1: In situations of burnout or exhaustion, penalize blind spots that push past limits
+    if ((situationLower.includes("burnout") || situationLower.includes("exhaust")) && (blindLower.includes("push") || blindLower.includes("rigid"))) {
+      judgmentScore -= 8;
     }
-    if (situationLower.includes("fear") && c.strengths.some((s) => s.toLowerCase().includes("courage") || s.toLowerCase().includes("bravery"))) {
-      judgmentScore += 8; // Boost courageous anchor
+    // Trade-off 2: In relationship tensions, penalize posturing or emotional avoidance
+    if ((situationLower.includes("friend") || situationLower.includes("relationship")) && (blindLower.includes("postur") || blindLower.includes("command"))) {
+      judgmentScore -= 7;
     }
-    if (situationLower.includes("change") && c.dimensionRatings.adaptability >= 4) {
-      judgmentScore += 6; // Boost adaptable catalyst
+    // Trade-off 3: In creative block / motivation dips, boost playful or autonomous catalysts
+    if (situationLower.includes("writing") || situationLower.includes("creative")) {
+      if (strengthsLower.includes("creative") || strengthsLower.includes("spontan") || strengthsLower.includes("levity")) {
+        judgmentScore += 5;
+      }
+      if (blindLower.includes("suffocate") || blindLower.includes("command")) {
+        judgmentScore -= 8;
+      }
+    }
+    // Trade-off 4: In high-stakes career crossroads / conflicting offers, reward autonomy & rapid adaptation over rigid control
+    if (situationLower.includes("offer") || situationLower.includes("conflict")) {
+      if (blindLower.includes("suffocate") || blindLower.includes("command")) {
+        judgmentScore -= 5;
+      }
+      if (c.dimensionRatings.adaptability >= 4 || strengthsLower.includes("speed")) {
+        judgmentScore += 4;
+      }
+    }
+    // Trade-off 5: In relocation / major change, reward candidates with calm anchoring or resilience
+    if (situationLower.includes("relocat") || situationLower.includes("country")) {
+      if (c.dimensionRatings.adaptability >= 4) {
+        judgmentScore += 4;
+      }
+      if (blindLower.includes("prank") || blindLower.includes("mischief")) {
+        judgmentScore -= 6;
+      }
+    }
+    // Trade-off 6: Overthinking paralysis benefits from instincts and spontaneous action
+    if (situationLower.includes("overthink") && (strengthsLower.includes("instinct") || strengthsLower.includes("spontan"))) {
+      judgmentScore += 6;
     }
 
     if (judgmentScore > highestEvaluatedScore) {
@@ -213,6 +274,10 @@ export function mockJevSelection(input: JevSelectionInput): JevSelectionOutput {
     confidence: 0.88,
     probabilities: {
       [`candidate_${bestCandidate.id}`]: 0.88,
+    },
+    usage: {
+      inputTokens: 180,
+      outputTokens: 0,
     },
   };
 

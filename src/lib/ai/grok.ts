@@ -40,10 +40,10 @@ export class GrokClient {
   private readonly timeoutMs: number;
 
   constructor(config: GrokClientConfig = {}) {
-    this.apiKey = config.apiKey || process.env.GROK_API_KEY;
-    this.baseUrl = config.baseUrl || "https://api.x.ai/v1";
-    this.model = config.model || "grok-beta";
-    this.timeoutMs = config.timeoutMs || 15000;
+    this.apiKey = config.apiKey || process.env.GROQ_API_KEY || process.env.GROK_API_KEY;
+    this.baseUrl = config.baseUrl || process.env.GROQ_BASE_URL || "https://api.groq.com/openai/v1";
+    this.model = config.model || process.env.GROQ_MODEL || process.env.GROK_MODEL || "openai/gpt-oss-120b";
+    this.timeoutMs = config.timeoutMs || 25000;
   }
 
   /**
@@ -64,7 +64,7 @@ export class GrokClient {
       throw new AIProviderError(
         "grok",
         "MISSING_API_KEY",
-        "GROK_API_KEY is not set in environment."
+        "GROQ_API_KEY is not set in environment."
       );
     }
 
@@ -122,7 +122,7 @@ Do NOT diagnose or provide therapy. Do NOT recommend any Pokémon in this step.`
       throw new AIProviderError(
         "grok",
         "MISSING_API_KEY",
-        "GROK_API_KEY is not set in environment."
+        "GROQ_API_KEY is not set in environment."
       );
     }
 
@@ -177,29 +177,49 @@ Top Matched Dimensions: ${card.matchedDimensions
     const timer = setTimeout(() => controller.abort(), this.timeoutMs);
 
     try {
-      const res = await fetch(`${this.baseUrl}/chat/completions`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${this.apiKey}`,
-        },
-        body: JSON.stringify({
-          model: this.model,
-          messages,
-          temperature: 0.7,
-          response_format: { type: "json_object" },
-        }),
-        signal: controller.signal,
-      });
+    let res: Response | null = null;
+    let attempts = 0;
+    const maxAttempts = 3;
 
-      if (!res.ok) {
-        const errorText = await res.text().catch(() => "");
-        throw new AIProviderError(
-          "grok",
-          "API_ERROR",
-          `Grok API returned status ${res.status}: ${errorText}`
-        );
+    while (attempts < maxAttempts) {
+      attempts++;
+      try {
+        res = await fetch(`${this.baseUrl}/chat/completions`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${this.apiKey}`,
+          },
+          body: JSON.stringify({
+            model: this.model,
+            messages,
+            temperature: 0.7,
+            response_format: { type: "json_object" },
+          }),
+          signal: controller.signal,
+        });
+
+        if (res.status === 429 || res.status === 529 || res.status === 503) {
+          if (attempts < maxAttempts) {
+            await new Promise((resolve) => setTimeout(resolve, 3000 * attempts));
+            continue;
+          }
+        }
+        break;
+      } catch (err) {
+        if (attempts >= maxAttempts) throw err;
+        await new Promise((resolve) => setTimeout(resolve, 2000 * attempts));
       }
+    }
+
+    if (!res || !res.ok) {
+      const errorText = await res?.text().catch(() => "") || "";
+      throw new AIProviderError(
+        "grok",
+        "API_ERROR",
+        `Grok API returned status ${res?.status}: ${errorText}`
+      );
+    }
 
       const data = await res.json();
       const content = data.choices?.[0]?.message?.content;
@@ -266,7 +286,49 @@ export function mockGrokSituationAnalysis(
     calm: 3,
   };
 
-  if (text.includes("job") || text.includes("career") || text.includes("work")) {
+  if (text.includes("friend") || text.includes("relationship") || text.includes("family")) {
+    weights.calm = 5;
+    weights.patience = 5;
+    weights.adaptability = 4;
+    weights.courage = 3;
+    weights.persistence = 2;
+    weights.confidence = 2;
+  } else if (text.includes("relocat") || text.includes("country") || text.includes("change")) {
+    weights.adaptability = 5;
+    weights.courage = 5;
+    weights.confidence = 4;
+    weights.calm = 3;
+    weights.persistence = 3;
+    weights.patience = 2;
+  } else if (text.includes("promote") || text.includes("lead") || text.includes("manager")) {
+    weights.confidence = 5;
+    weights.courage = 4;
+    weights.calm = 4;
+    weights.adaptability = 3;
+    weights.persistence = 3;
+    weights.patience = 3;
+  } else if (text.includes("burnout") || text.includes("exhaust") || text.includes("nervous") || text.includes("panic")) {
+    weights.calm = 5;
+    weights.patience = 5;
+    weights.confidence = 2;
+    weights.persistence = 1;
+    weights.courage = 2;
+    weights.adaptability = 3;
+  } else if (text.includes("habit") || text.includes("routine") || text.includes("fitness") || text.includes("consistency")) {
+    weights.persistence = 5;
+    weights.patience = 5;
+    weights.confidence = 3;
+    weights.calm = 3;
+    weights.adaptability = 2;
+    weights.courage = 2;
+  } else if (text.includes("writing") || text.includes("creative") || text.includes("imposter") || text.includes("motivation")) {
+    weights.confidence = 5;
+    weights.courage = 4;
+    weights.persistence = 4;
+    weights.adaptability = 3;
+    weights.calm = 3;
+    weights.patience = 2;
+  } else if (text.includes("job") || text.includes("career") || text.includes("work")) {
     weights.adaptability = 5;
     weights.courage = 4;
     weights.calm = 4;
@@ -280,13 +342,6 @@ export function mockGrokSituationAnalysis(
     weights.confidence = 3;
     weights.courage = 2;
     weights.adaptability = 2;
-  } else if (text.includes("overwhelmed") || text.includes("anxious") || text.includes("burnout")) {
-    weights.calm = 5;
-    weights.patience = 5;
-    weights.persistence = 2;
-    weights.courage = 2;
-    weights.confidence = 2;
-    weights.adaptability = 3;
   } else {
     weights.confidence = 4;
     weights.courage = 4;

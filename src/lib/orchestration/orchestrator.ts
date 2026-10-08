@@ -69,10 +69,11 @@ export async function executeMatchPipeline(
   rawInput: unknown,
   options: OrchestrationOptions = {}
 ): Promise<OrchestrationResult> {
+  const hasLlmKey = Boolean(process.env.GROQ_API_KEY || process.env.GROK_API_KEY);
+  const hasJevKey = Boolean(process.env.OPENROUTER_API_KEY);
   const isMockMode =
     options.mockMode ??
-    (process.env.AI_MOCK_MODE === "true" ||
-      (!process.env.GROK_API_KEY && !process.env.JEV_API_KEY));
+    (process.env.AI_MOCK_MODE === "true" || !hasLlmKey || !hasJevKey);
 
   let currentStage: PipelineStage = "INPUT_VALIDATION";
 

@@ -60,6 +60,10 @@ export interface JevSelectionOutput {
   selectedPokemonId: number; // Strictly one of candidate IDs
   confidence?: number;       // Calibrated probability (0.0 to 1.0) if returned
   probabilities?: Record<string, number>; // Distribution over candidate choices
+  usage?: {
+    inputTokens?: number;
+    outputTokens?: number;
+  };
 }
 
 // ============================================================================

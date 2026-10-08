@@ -252,9 +252,9 @@ describe("PokéLife Match API Pipeline Orchestration Suite", () => {
   it("13. Missing API keys in real mode produces 503 error without crashing", async () => {
     // Force mockMode to false without keys
     const savedGrok = process.env.GROK_API_KEY;
-    const savedJev = process.env.JEV_API_KEY;
+    const savedOpenRouter = process.env.OPENROUTER_API_KEY;
     delete process.env.GROK_API_KEY;
-    delete process.env.JEV_API_KEY;
+    delete process.env.OPENROUTER_API_KEY;
 
     try {
       const res = await executeMatchPipeline(
@@ -267,7 +267,7 @@ describe("PokéLife Match API Pipeline Orchestration Suite", () => {
       assert.equal((res.data as MatchApiResponseError).error.code, "INTERNAL_ERROR");
     } finally {
       if (savedGrok) process.env.GROK_API_KEY = savedGrok;
-      if (savedJev) process.env.JEV_API_KEY = savedJev;
+      if (savedOpenRouter) process.env.OPENROUTER_API_KEY = savedOpenRouter;
     }
   });
 

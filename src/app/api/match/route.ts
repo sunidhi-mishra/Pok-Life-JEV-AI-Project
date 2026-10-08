@@ -1,8 +1,6 @@
-/**
- * Next.js App Router API Route Handler for POST /api/match
- */
-
 import { executeMatchPipeline } from "../../../lib/orchestration/orchestrator.ts";
+
+export const dynamic = "force-dynamic";
 
 export async function POST(request: Request): Promise<Response> {
   try {
