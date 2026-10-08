@@ -9,11 +9,15 @@
  */
 
 import type { MatchApiRequest } from "../../types/api.ts";
+import { checkInputQuality } from "./qualityGate.ts";
 
 export class ApiInputValidationError extends Error {
-  constructor(message: string) {
+  public code: string;
+
+  constructor(message: string, code = "INVALID_INPUT") {
     super(message);
     this.name = "ApiInputValidationError";
+    this.code = code;
   }
 }
 
@@ -58,15 +62,24 @@ export function validateMatchApiInput(raw: unknown): MatchApiRequest {
     throw new ApiInputValidationError("Please describe your situation. Input cannot be empty.");
   }
 
-  if (trimmed.length < 10) {
+  if (trimmed.length < 3) {
     throw new ApiInputValidationError(
-      "Please describe your situation in a bit more detail (at least 10 characters)."
+      "Please describe your situation in a bit more detail (at least 3 characters)."
     );
   }
 
   if (trimmed.length > 1000) {
     throw new ApiInputValidationError(
       "Situation description is too long (maximum 1000 characters)."
+    );
+  }
+
+  // Deterministic local quality gate check before ANY external calls
+  const quality = checkInputQuality(trimmed);
+  if (!quality.isValid) {
+    throw new ApiInputValidationError(
+      quality.userMessage || "That doesn't look like a situation yet. Tell me what's actually going on, even if it's messy.",
+      "INPUT_NOT_MEANINGFUL"
     );
   }
 

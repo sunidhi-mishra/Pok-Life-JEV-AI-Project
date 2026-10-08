@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --test --experimental-strip-types src/lib/matching/filter.test.ts src/lib/ai/ai.test.ts src/lib/orchestration/orchestrator.test.ts"
+    "test": "node --test --experimental-strip-types src/lib/matching/filter.test.ts src/lib/ai/ai.test.ts src/lib/orchestration/orchestrator.test.ts src/lib/validation/qualityGate.test.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",

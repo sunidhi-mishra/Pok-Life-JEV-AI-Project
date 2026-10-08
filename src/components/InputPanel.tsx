@@ -102,9 +102,9 @@ export function InputPanel({
           <button
             type="button"
             onClick={onSubmit}
-            disabled={isLoading || count < 10}
+            disabled={isLoading || count < 3}
             className={`w-full py-4 px-6 rounded-2xl flex items-center justify-center gap-3 select-none ${
-              isLoading || count < 10
+              isLoading || count < 3
                 ? "bg-slate-400 border-3 border-slate-600 text-slate-200 cursor-not-allowed opacity-80"
                 : "rpg-btn-primary cursor-pointer active:translate-y-1"
             }`}

@@ -250,7 +250,7 @@ function handlePipelineError(err: unknown, stage: PipelineStage): OrchestrationR
       data: {
         success: false,
         error: {
-          code: "INVALID_INPUT",
+          code: (err.code as any) || "INVALID_INPUT",
           message: err.message,
         },
       },

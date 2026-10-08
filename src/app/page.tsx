@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Header } from "@/components/Header";
 import { InputPanel } from "@/components/InputPanel";
 import { ResultPanel } from "@/components/ResultPanel";
+import { checkInputQuality } from "@/lib/validation/qualityGate";
 import type { MatchApiResponse, MatchApiResponseSuccess } from "@/types/api";
 
 export default function HomePage() {
@@ -14,8 +15,13 @@ export default function HomePage() {
   const [result, setResult] = useState<MatchApiResponseSuccess["result"] | null>(null);
 
   const handleSubmit = async () => {
-    if (!situation.trim() || situation.trim().length < 10) {
-      setError("Please describe your situation in at least 10 characters.");
+    const trimmed = situation.trim();
+    const qualityCheck = checkInputQuality(trimmed);
+    if (!qualityCheck.isValid) {
+      setError(
+        qualityCheck.userMessage ||
+          "That doesn't look like a situation yet. Tell me what's actually going on, even if it's messy."
+      );
       return;
     }
 

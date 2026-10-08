@@ -41,6 +41,7 @@ export interface MatchApiResponseError {
   error: {
     code:
       | "INVALID_INPUT"
+      | "INPUT_NOT_MEANINGFUL"
       | "AI_ANALYSIS_FAILED"
       | "MATCHING_FAILED"
       | "JUDGMENT_FAILED"
